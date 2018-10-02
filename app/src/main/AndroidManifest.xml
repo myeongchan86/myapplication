@@ -13,17 +13,17 @@
             android:name=".MainActivity"
             android:label="MyApplication" />
         <activity android:name=".ButtonAlignActivity" />
-        <activity android:name=".PrintStarActivity"/>
-
-
-        <activity android:name=".ButtonAlignActivity2">
+        <activity android:name=".PrintStarActivity" />
+        <activity android:name=".ButtonAlignActivity2" />
+        <activity android:name=".explay">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".OneActivity" />
+        <activity android:name=".ThreeActivity"></activity>
     </application>
 
 </manifest>
